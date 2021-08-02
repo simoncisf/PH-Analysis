@@ -52,8 +52,8 @@ ORDER BY employees.emp_no
 
 SELECT * FROM mentorship_eligibility
 
--- Additional query
 
+-- Additional query
 SELECT DISTINCT ON (employees.emp_no) employees.emp_no,
     employees.first_name,
     employees.last_name,
